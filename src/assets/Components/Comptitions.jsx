@@ -619,8 +619,8 @@ const Competitions = () => {
                   )}
                   
                   <a 
-                    href={competition.registrationUrl} 
-                    target="_blank" 
+                    href={"/jobsubmit"}  
+                    // target="_blank" 
                     rel="noopener noreferrer"
                     className="block w-full bg-indigo-600 text-white py-2 px-4 rounded-md text-center font-medium hover:bg-indigo-700 transition-colors duration-300"
                   >

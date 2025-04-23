@@ -9,6 +9,7 @@ import Jobs from './assets/Components/Jobs.jsx'
 import Practice from './assets/Components/Practice.jsx'
 import Competitions from './assets/Components/Comptitions.jsx'
 import Auth from './assets/Components/Signup.jsx'
+import SubmitJobForm from './assets/Components/jobsubmit.jsx'
 
 
 // Create router with routes configuration
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/competitions",
     element: <Competitions />,
+  },
+  {
+    path: "/jobsubmit",
+    element: <SubmitJobForm />,
   },
   {
     path: "/business",

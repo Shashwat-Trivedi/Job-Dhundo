@@ -656,7 +656,8 @@ const Homepage = () => {
                       <span>Location: {location}</span>
                       <span>Deadline: {deadline}</span>
                     </div>
-                    <button 
+                    <Link 
+                    to={"/jobsubmit"}
                       className="w-full px-4 py-2 text-white font-medium rounded-md transition-all duration-300 hover:opacity-90 transform hover:scale-102 active:scale-98 shadow-md hover:shadow-lg"
                       style={{ backgroundColor: categoryColor }}
                     >
@@ -664,7 +665,7 @@ const Homepage = () => {
                        activeTab === "competitions" ? "Register" : 
                        activeTab === "practice" ? "Start Practice" :
                        activeTab === "mentorships" ? "Connect" : "Learn More"}
-                    </button>
+                    </Link>
                   </div>
                 </div>
               );

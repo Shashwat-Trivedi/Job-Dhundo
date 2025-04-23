@@ -772,9 +772,11 @@ const Mentorship = () => {
                       </div>
                       
                       <div className="mt-4 sm:mt-0">
-                        <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-6 rounded-md font-medium transition-colors">
+                        <Link
+                         to={"/jobsubmit"} 
+                        className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-6 rounded-md font-medium transition-colors">
                           Apply Now
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
